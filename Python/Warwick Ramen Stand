@@ -1,0 +1,73 @@
+<html lang="en"><head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Warwick Ramen Stand</title>
+<a href="https://wwww.warwick.ac.uk"> University of Warwick</a>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f8f8f8;
+                color: #333;
+            }
+
+            .header {
+                background-color: #ff0099;
+                color: white;
+                text-align: center;
+                padding: 10px 0;
+            }
+
+            .content {
+                padding: 20px;
+            }
+
+            #ramen-menu {
+                background-color: #ffe6cc;
+                padding: 15px;
+                border-radius: 5px;
+            }
+
+            .menu-item {
+                color:#FF0099;
+                font-weight:italic;
+            }
+
+            .footer {
+                background-color: #74992e;
+                color: white;
+                text-align: center;
+                padding: 5px 0;
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+            }
+        </style>
+    </head>
+
+    <body data-new-gr-c-s-check-loaded="14.1149.0" data-gr-ext-installed="">
+
+        <div class="header">
+            <h1 id="stand-name">Warwick Ramen Stand</h1>
+        </div>
+
+        <div class="content">
+            <p>Discover the authentic taste of Japan!</p>
+            <div id="ramen-menu">
+                <h2>Our Menu</h2>
+<p>Monday-Friday:11am-8pm</p><p></p>
+                <p class="menu-item">Tonkotsu Ramen</p>
+<img src="https://glebekitchen.com/wp-content/uploads/2017/04/tonkotsuramenfront.jpg" alt="" style="
+    height: 650px;
+">
+                <p class="menu-item">Shoyu Ramen</p>
+                <p class="menu-item">Miso Ramen</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Visit us outside MEC!</p>
+        </div>
+
+    
+
+<div id="speechify-global-notifications"></div><div id="speechify-screenshot-mode" style="position: fixed; top: 0px; right: 0px; width: 100%; min-height: 100%; z-index: 2147483640; display: none !important;"></div><div id="speechify-shortcuts-prompt"></div></body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
