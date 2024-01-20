@@ -1,0 +1,39 @@
+#breadcrumbs ul {
+    list-style: none;
+    padding: 10px;
+    background-color: #eee;
+
+}
+
+#breadcrubbs ul li {
+    display: inline;
+    margin-right: 5pax;
+}
+
+.product-title {
+    text-align: center;
+    color: blue;
+}
+
+.product-image img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
+}
+
+.size-options {
+    text-align: center;
+    margin-botton: 10px;
+}
+
+.quantity {
+    background-color: blue color: white border:none padding:5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.quantity {
+    margin-botton: 10px;
+
+}
