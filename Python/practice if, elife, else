@@ -1,0 +1,13 @@
+print("welcome to the zoo")
+height = int(input("Please enter your height"))
+vip_level = int(input("Please enter your vip level(1~5):"))
+day = int(input("Please enter today's date(1~30):"))
+if height < 120:
+    print("You are less than 120CM tall and can play for free")
+elif vip_level > 3:
+    print("Your vip level is greater than 3 and you can play for free")
+elif day == 1:
+    print("Today is the 1st Free day, you can play for free")
+else:
+    print("I'm sorry, all the conditions are not met and the ticket will cost 5 pounds")
+print =("Have a nice trip")
