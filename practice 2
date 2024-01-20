@@ -1,5 +1,0 @@
-inventory = {"Hat":10, "Scraf":10, "Gloves":10, "Shoes":10}
-
-for x, y in inventory.items():
-    print(x, y)
-    
