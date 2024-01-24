@@ -1,0 +1,18 @@
+def speeding_ticket(speed, is_birthday):
+    # Adjust speed limit if it's the driver's birthday
+    adjustment = 5 if is_birthday else 0
+
+    # Determine the ticket type based on speed
+    if speed <= 60 + adjustment:
+        return "No Ticket"
+    elif 61 <= speed <= 80 + adjustment:
+        return "Small Ticket"
+    else:
+        return "Big Ticket"
+    
+    # Example Test Cases
+print(speeding_ticket(60, False))  # Test case 1
+print(speeding_ticket(75, False))  # Test case 2
+print(speeding_ticket(85, False))  # Test case 3
+print(speeding_ticket(65, True))   # Test case 4
+print(speeding_ticket(85, True))   # Test case 5

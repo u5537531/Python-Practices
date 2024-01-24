@@ -1,0 +1,18 @@
+def is_prime(number):
+    # Prime numbers are greater than 1
+    if number <= 1:
+        return False
+
+    # Check for factors
+    for i in range(2, int(number**0.5) + 1):
+        if number % i == 0:
+            return False
+
+    return True
+
+# Example Test Cases
+print(is_prime(11))  # Test case 1
+print(is_prime(4))   # Test case 2
+print(is_prime(2))   # Test case 3
+print(is_prime(1))   # Test case 4
+
