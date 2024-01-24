@@ -1,0 +1,9 @@
+def compound_interest_calculator(P, r, n, t):
+    # Calculate compound interest
+    A = P * (1 + r/n) ** (n*t)
+    return A
+
+# Example Test Cases
+print(compound_interest_calculator(1000, 0.05, 12, 5))  # Test case 1
+print(compound_interest_calculator(500, 0.07, 4, 10))   # Test case 2
+print(compound_interest_calculator(1500, 0.03, 6, 7))   # Test case 3
